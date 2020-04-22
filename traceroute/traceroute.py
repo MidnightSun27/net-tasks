@@ -48,6 +48,7 @@ def get_help():
     print("\tpython traceroute.py yandex.ru")
     print("\tpython traceroute.py <IP>")
     print("\tpython traceroute.py 77.88.55.55")
+    print("Онуфриенко Т.Р., MO-201 / МЕН-282201")
 
 
 def main():
