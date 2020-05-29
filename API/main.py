@@ -40,7 +40,6 @@ def get_help():
     print("Для запуска инструкции снова:")
     print("Запустить скрипт без аргумента:  python3 main.py")
     print("python3 main.py --help | python3 main.py -h")
-
     print("Онуфриенко Т.Р., МЕН-282201")
 
 
