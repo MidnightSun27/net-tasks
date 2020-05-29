@@ -35,8 +35,8 @@ def get_help():
     print("Нажмите на \"Разрешить\" и далее в новой странице адресной строке будет URL "
           "\"https://oauth.vk.com/blank.html\".")
     print("А после # Вы увидите дополнительные параметры — access_token, expires_in и user_id.")
-    print("Скопируйте последовательность букв и цифр, после \"access_token=\" и перед \"expires_in\"и вставьте в "
-          "консоль после получения просьбы \"Paste token here:\".")
+    print("Скопируйте последовательность букв и цифр, после \"access_token=\" и перед \"expires_in\".")
+    print("Вставьте в онсоль после получения просьбы \"Paste token here:\".")
     print("Для запуска инструкции снова:")
     print("Запустить скрипт без аргумента:  python3 main.py")
     print("python3 main.py --help | python3 main.py -h")
