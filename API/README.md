@@ -10,7 +10,7 @@
     __________________________________
     Пример запуска:
     python3 main.py https://vk.com/solodushkin_si  | python3 main.py solodushkin_si
-    51eff86578a3bbbcb5c7043a122a69fd04dca057ac821dd7afd7c2d8e35b60172d45a26599c08034cc40a
+    51eff86578a3bbbcb5c7043a122a69fd04dca057ac821dd7afd7c2d8e35b60172d45a26599c08034cc40a (пример токена из VK Developers)
     __________________________________
     Чтобы снова прочесть инструкцию, можно:
       1) запустить скрипт без аргумента (python3 main.py)
