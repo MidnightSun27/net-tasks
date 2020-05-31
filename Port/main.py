@@ -3,7 +3,6 @@
 import socket
 import argparse
 
-# python main.py -host google.com -s 80 -e 80
 parser = argparse.ArgumentParser(description='Scaner portov')
 parser.add_argument('-host', action='store', dest='host', help='Host ip', type=str, default="127.0.0.1", nargs='?')
 parser.add_argument('-s', action='store', dest='start', help='Start port', type=int, default=1, nargs='?')
