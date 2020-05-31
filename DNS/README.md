@@ -5,6 +5,6 @@
   ____
   server 127.0.0.1
   ____
-  set type=ptr
+  set type=ptr |set type=а| set type=аааа| set type=ns
   ____
   google.com.
