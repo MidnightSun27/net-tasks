@@ -13,15 +13,14 @@ except:
 
 UDP_IP = "127.0.0.1"
 UDP_PORT = 12300
-# Проверять в терминале через команду `nc 127.0.0.1 12300 -u` и жмешь enter, чтобы он отправил UDP пакет
 
-sock = socket.socket(socket.AF_INET, # Internet
-                     socket.SOCK_DGRAM) # UDP
+sock = socket.socket(socket.AF_INET,  
+                     socket.SOCK_DGRAM)  
 sock.bind((UDP_IP, UDP_PORT))
 
 while True:
     print("listening message")
-    data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
+    data, addr = sock.recvfrom(1024)  
     print("received message: %s" % data)
     time = int((datetime.utcnow() - datetime(1970, 1, 1)).total_seconds())
     tochnoeVremya = str(time + shift).encode()
