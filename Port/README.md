@@ -1,1 +1,2 @@
-  python3 main.py -host google.com -s 80 -e 80
+  python3 portscanner leftborder rightborder
+  (for example, python3 portscanner 1 100)
