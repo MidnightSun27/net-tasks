@@ -24,6 +24,6 @@ while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
     print("received message: %s" % data)
     time = int((datetime.utcnow() - datetime(1970, 1, 1)).total_seconds())
-    tochnoeVremya = str(time + shift)
+    tochnoeVremya = str(time + shift).encode()
     print("Sending tochnoe vremya")
     sock.sendto(tochnoeVremya, addr)
